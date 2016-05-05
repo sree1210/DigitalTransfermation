@@ -13,7 +13,53 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>    
+    <!-- Adding the dependencies -->
+    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.2.5.RELEASE</version>
+	</dependency>
+	<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.2.5.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>4.2.5.RELEASE</version>
+	</dependency>
+	<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.2.5.RELEASE</version>
+	</dependency>	
+	<dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.1.1</version>
+        <scope>runtime</scope>
     </dependency>
+	<dependency>
+		<groupId>taglibs</groupId>
+		<artifactId>standard</artifactId>
+		<scope>runtime</scope>
+		<version>1.1.1</version>
+	</dependency>	
+	<dependency>
+		<groupId>taglibs</groupId>
+		<artifactId>c</artifactId>
+		<version>1.1.1</version>
+		<type>tld</type>
+	</dependency>	
+	<dependency>
+		<groupId>taglibs</groupId>
+		<artifactId>fmt</artifactId>
+		<version>1.1.1</version>
+		<type>tld</type>
+	</dependency>			
+    <!-- Adding the dependencies -->    
   </dependencies>
   <build>
     <finalName>musichub</finalName>
