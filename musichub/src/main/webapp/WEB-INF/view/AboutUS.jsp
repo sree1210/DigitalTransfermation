@@ -46,7 +46,7 @@
 
 <br/>
 <div class="jumbotron">
-<center><h1>Welcome to About US Page</h1></center>
+<center><h4>Welcome to About US Page</h4></center>
 </div>
 </body>
 </html>

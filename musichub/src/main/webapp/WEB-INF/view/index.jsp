@@ -31,7 +31,7 @@
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img   
   {   	 
-  	  height:375px;
+  	  height:200px;
       width: 30%;
       margin: auto;
      
@@ -105,19 +105,19 @@
               
   <div class="row">
     <div class="col-md-4">
-      <a href="Products?p=Category-1_Flute-1" class="thumbnail">
+      <a href="Products?p=Flute" class="thumbnail">
         <center><p>Flute</p></center>    
         <img src="resources/Images/Flute1.jpg" alt="Flute 1" style="width:150px;height:150px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Products?p=Category-2_Guitar-1" class="thumbnail">
+      <a href="Products?p=Guitar" class="thumbnail">
         <center><p>Guitar</p></center>  
         <img src="resources/Images/Guitar1.jpg" alt="Guitar 1" style="width:150px;height:150px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Products?p=Category-3_Tabla-1" class="thumbnail">
+      <a href="Products?p=Tabla" class="thumbnail">
         <center><p>Tabla</p></center>        
         <img src="resources/Images/Tabla1.jpg" alt="Tabala 1" style="width:150px;height:150px">
       </a>
