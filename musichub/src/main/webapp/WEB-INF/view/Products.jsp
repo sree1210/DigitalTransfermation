@@ -19,6 +19,12 @@
   	<script src="<c:url value="/resources/js/bootstrap.min.js" />" ></script>
   	<script src="<c:url value="/resources/angular-1.5.5/angular.min.js" />" ></script>
    	
+   	<style type="text/css">
+  		table tr td,table tr th
+  		{
+  			text-align: center;
+  		}
+  	</style>
   	
   <style>
   .carousel-inner > .item > img,
@@ -77,18 +83,18 @@
 	
 	<table class="table table-striped">
 	<tr>
-		<th>NO</th>
-		<th>NAME</th>
 		<th>ID</th>
-		<th>PRICE</th>
-		<th>DESCRIPTION</th>
+		<th>NAME</th>
+		<th>INFO</th>
 	</tr>
 	<tr ng-repeat="resource in names | filter:search">
-		<td>{{ resource.no }}</td>
-		<td>{{ resource.name}}</td>
 		<td>{{ resource.id }}</td>
-		<td>{{ resource.price}}</td>
-		<td>{{ resource.description}}</td>
+		<td>{{ resource.name}}</td>
+		<td>
+			<a href="Details?p={{resource.name}}">
+			<img src="<c:url value="/resources/Images/info.jpg"/>" 
+			style="width:15px;height:15px;"/></a>
+		</td>
 	</tr>
 	</table>
 	
@@ -118,6 +124,7 @@
 	</script>
 	 -->
 	 
+	 <!-- 
 	 <script>
 	angular.module('myApp', []).controller('namesCtrl', function($scope) {
     $scope.names = [
@@ -138,6 +145,18 @@
         $scope.myOrderBy = x;
     }
 	});
+	</script>
+		 -->
+	
+	<script>
+		angular.module('myApp', []).controller('namesCtrl', function($scope) 
+		{
+			$scope.names = ${data};
+   			$scope.orderByMe = function(x) 
+   			{
+       			$scope.myOrderBy = x;
+        	}
+		});
 	</script>
 		 
 	</div>

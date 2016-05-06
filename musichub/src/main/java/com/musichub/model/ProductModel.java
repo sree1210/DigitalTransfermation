@@ -5,58 +5,33 @@ public class ProductModel
 	//we call this kind of class as pojo class
 	//pojo class contains only variables and setter and getter methods
 	
-	public String no;
-	public String name;
-	public String id;
-	public String price;
+	public int id;
+	public String name;	
+	public double price;
 	public String desc;
 	
-	public void setNo(String no) 
-	{
-		this.no = no;
-	}
-	public void setName(String name) 
-	{
-		this.name = name;
-	}
-	public void setId(String id) 
-	{
+	public ProductModel(int id, String name, double price, String desc)
+	{	
 		this.id = id;
-	}
-	public void setPrice(String price) 
-	{
+		this.name = name;
 		this.price = price;
-	}
-	public void setDesc(String desc) 
-	{
 		this.desc = desc;
 	}
-
-	 
-	public String getNo() 
+	
+	public int getId() 
 	{
-		return no;
+		return id;
 	}
 	public String getName() 
 	{
 		return name;
 	}
-	public String getId() 
-	{
-		return id;
-	}
-	public String getPrice() 
+	public double getPrice() 
 	{
 		return price;
 	}
 	public String getDesc() 
 	{
 		return desc;
-	}
-	
-		
-	public ProductModel()
-	{
-		
 	}
 }
