@@ -1,0 +1,49 @@
+#header 
+{
+    color:Blue;
+    text-align:center;
+    padding:2px;
+    background-color: Azure;
+}
+#nav 
+{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:450px;
+    width:12%;
+    float:left;
+    padding:5px;	  
+    text-align: left;    
+}
+#section 
+{
+    height:450px;
+    width:88%;
+    float:left;
+    padding:10px;	 	
+    background-color: FFFFCC;
+}
+#footer 
+{
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:2px;	 	 
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img   
+{   	 
+  	height:390px;
+    width: 30%;
+	margin: auto;
+}
+#b1
+{
+	background-color: Azure;
+}
+#p
+{
+    color:Blue;
+    padding:2px;
+}
